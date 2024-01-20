@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Video Player</title>
+  <link rel="stylesheet" href="VideoPlayer.css">
+  <script src="VideoPlayer.js"></script>
+</head>
+<body>
+<header>
+  <h1>Плеер для видео из интернета</h1>
+  <h2>на которые есть ссылка но нет возможности посмотреть</h2>
+  <h3>А вы не хотите его качать</h3>
+  <h4>Например с каких нибудь learn.javascript.ru</h4>
+</header>
+<main>
+  <input id="link" placeholder="вставьте ссылку на видео">
+  <button onclick="showVid()">Запускай!</button>
+  <video id="player" controls width="250" resize>
+    Здесь будет ваше видео
+  </video>
+</main>
+</body>
+</html>
